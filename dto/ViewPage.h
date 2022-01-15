@@ -1,0 +1,14 @@
+//
+// Created by tomas on 11/01/2022.
+//
+
+#ifndef FINALCHECKERS_VIEWPAGE_H
+#define FINALCHECKERS_VIEWPAGE_H
+
+
+enum ViewPage {
+INTRO,MENU,INSTRUCTION,GAME,GAMEOVER
+};
+
+
+#endif //FINALCHECKERS_VIEWPAGE_H
