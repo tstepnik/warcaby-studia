@@ -1,7 +1,3 @@
-//
-// Created by tomas on 11/01/2022.
-//
-
 #ifndef FINALCHECKERS_GAME_H
 #define FINALCHECKERS_GAME_H
 
@@ -18,6 +14,4 @@ public:
     Game(ObjectsRepository *repo) : repository {repo}{};
 
 };
-
-
 #endif //FINALCHECKERS_GAME_H

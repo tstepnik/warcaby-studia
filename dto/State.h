@@ -1,7 +1,3 @@
-//
-// Created by tomas on 15/01/2022.
-//
-
 #ifndef FINALCHECKERS_STATE_H
 #define FINALCHECKERS_STATE_H
 
@@ -9,7 +5,7 @@
 #include "Side.h"
 
 enum State {
-EMPTY,WHITE,BLACK
+EMPTY,WHITE=WHITE_SIDE,BLACK=BLACK_SIDE,WHITE_QUEEN = WHITE_SIDE_QUEEN,BLACK_QUEEN = BLACK_SIDE_QUEEN
 };
 
 

@@ -18,7 +18,6 @@ public:
 
     void creatBoard();
 
-    void findCell(int x, int y, GreenCell &greenCell);
 
     void gameCellsInitiation();
 
@@ -26,7 +25,6 @@ public:
 
     void stworzPionka(int x1, int y1);
 
-    void updateCell(int x, int y, GreenCell &greenCell);
 };
 
 

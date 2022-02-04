@@ -1,13 +1,9 @@
-//
-// Created by tomas on 11/01/2022.
-//
-
 #ifndef FINALCHECKERS_OBJECTSREPOSITORY_H
 #define FINALCHECKERS_OBJECTSREPOSITORY_H
 
 
 #include "ViewPage.h"
-#include "GreenCell.h"
+#include "State.h"
 #include <vector>
 using namespace std;
 class ObjectsRepository {
@@ -22,19 +18,14 @@ public:
     bool *firstConfig;
 
     bool cellSelected;
+    bool paintSelectedCell;
     bool isAfterJump;
     int mouseX;
     int mouseY;
     int mouseState;
     ObjectsRepository();
 
-//    vector<GreenCell> greenCells;
-
-//    State board_[8][8];
-//    Board board_[8][8];
-
-
-
+    State board_[8][8];
 
 };
 

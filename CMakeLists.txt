@@ -26,8 +26,6 @@ add_executable(
         screens/GameScreen.h
         checkers/Board.cpp
         checkers/Board.h
-        dto/GreenCell.cpp
-        dto/GreenCell.h
         dto/State.h
 )
 find_package(OpenGL REQUIRED)

@@ -7,7 +7,7 @@
 
 
 enum Side {
-    BLACK_SIDE = 1, WHITE_SIDE = 2
+    BLACK_SIDE = 1, WHITE_SIDE = 2, WHITE_SIDE_QUEEN = 3, BLACK_SIDE_QUEEN = 4
 };
 
 

@@ -1,6 +1,3 @@
-//
-// Created by tomas on 11/01/2022.
-//
 
 #include "ScreenFabric.h"
 #include "../dto/ViewPage.h"
